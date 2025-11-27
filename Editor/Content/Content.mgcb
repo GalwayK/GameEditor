@@ -62,3 +62,9 @@
 /processorParam:TextureFormat=Color
 /build:FighterNormal.jpg
 
+#begin PhonShader.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:PhonShader.fx
+

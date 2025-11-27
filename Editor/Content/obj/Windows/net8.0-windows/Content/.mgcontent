@@ -8,8 +8,10 @@
     <File>C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/Fighter.fbx</File>
     <File>C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/FighterDiffuse.jpg</File>
     <File>C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/FighterNormal.jpg</File>
+    <File>C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/PhonShader.fx</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

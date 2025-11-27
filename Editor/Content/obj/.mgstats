@@ -1,5 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/BulletImpact21.wav","C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/bin/BulletImpact21.xnb","SoundEffectProcessor","SoundEffectContent",376966,231109,0.3325475
-"C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/Fighter.fbx","C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/bin/Fighter.xnb","ModelProcessor","ModelContent",120128,178013,1.9501878
-"C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/FighterDiffuse.jpg","C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/bin/FighterDiffuse.xnb","TextureProcessor","Texture2DContent",2212221,16777301,0.394393
-"C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/FighterNormal.jpg","C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/bin/FighterNormal.xnb","TextureProcessor","Texture2DContent",2005865,16777301,0.2311518
+"C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/BulletImpact21.wav","C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/bin/BulletImpact21.xnb","SoundEffectProcessor","SoundEffectContent",376966,231109,0.1607021
+"C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/Fighter.fbx","C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/bin/Fighter.xnb","ModelProcessor","ModelContent",120128,178013,1.8980849
+"C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/FighterDiffuse.jpg","C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/bin/FighterDiffuse.xnb","TextureProcessor","Texture2DContent",2212221,16777301,0.4347888
+"C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/FighterNormal.jpg","C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/bin/FighterNormal.xnb","TextureProcessor","Texture2DContent",2005865,16777301,0.2351352
+"C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/PhonShader.fx","C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/bin/PhonShader.xnb","EffectProcessor","CompiledEffectContent",2262,3535,1.742608

@@ -3,6 +3,7 @@ using Lab08.Engine.Interfaces;
 using Lab08.Engine.Scripting;
 using System.IO;
 using System.Collections.Generic;
+using System;
 
 namespace Lab08.Editor
 {
@@ -19,6 +20,7 @@ namespace Lab08.Editor
         public string ScriptFolder { get; private set; } = string.Empty;
         public string Name { get; private set; } = string.Empty;
         public AssetMonitor AssetMonitor { get; private set; } = null;
+        public ScriptMonitor ScriptMonitor { get; private set; } = null;
 
         public Project() { }
 
@@ -54,9 +56,10 @@ namespace Lab08.Editor
             CreateScriptFile(ScriptFolder + $"{d}BeforeUpdate.lua");
             CreateScriptFile(ScriptFolder + $"{d}AfterUpdate.lua");
 
-
             AssetMonitor = new(ObjectFolder);
             AssetMonitor.OnAssetsUpdated += AssetMon_OnAssetsUpdated;
+            ScriptMonitor = new(ScriptFolder);
+            ScriptMonitor.OnScriptUpdated += ScriptMon_OnScriptUpdated;
 
             // Add a default level
             AddLevel(_game);
@@ -82,6 +85,12 @@ namespace Lab08.Editor
             sc.LoadScriptFile(ScriptFolder + $"{d}AfterRender.lua");
             sc.LoadScriptFile(ScriptFolder + $"{d}BeforeUpdate.lua");
             sc.LoadScriptFile(ScriptFolder + $"{d}AfterUpdate.lua");
+        }
+
+        private void ScriptMon_OnScriptUpdated(string _script)
+        {
+            Console.WriteLine($"Script: {_script}");
+            ScriptController.Instance.LoadScriptFile(_script);
         }
 
         private void AssetMon_OnAssetsUpdated()

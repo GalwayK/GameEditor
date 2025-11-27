@@ -37,7 +37,18 @@ namespace Lab08.Engine.Scripting
 
         public void LoadScriptFile(string _file)
         {
-            string script = File.ReadAllText(_file);
+            if (_file.Contains(".lua"))
+            {
+                int index = _file.IndexOf(".lua") + 4;
+                _file = _file.Substring(0, index);
+            }
+            else
+            {
+                return;
+            }
+            using var inStream = new FileStream(_file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+            using var streamReader = new StreamReader(inStream);
+            string script = streamReader.ReadToEnd();
             LoadScript(script);
         }
 

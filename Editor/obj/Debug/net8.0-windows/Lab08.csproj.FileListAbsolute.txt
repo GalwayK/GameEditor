@@ -52,3 +52,4 @@ C:\Sheridan\S08\GameTools\Projects\Lab08\Editor\obj\Debug\net8.0-windows\refint\
 C:\Sheridan\S08\GameTools\Projects\Lab08\Editor\obj\Debug\net8.0-windows\Lab08.pdb
 C:\Sheridan\S08\GameTools\Projects\Lab08\Editor\obj\Debug\net8.0-windows\Lab08.genruntimeconfig.cache
 C:\Sheridan\S08\GameTools\Projects\Lab08\Editor\obj\Debug\net8.0-windows\ref\Lab08.dll
+C:\Sheridan\S08\GameTools\Projects\Lab08\Editor\bin\Debug\net8.0-windows\Content\PhonShader.xnb

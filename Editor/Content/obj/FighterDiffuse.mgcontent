@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/FighterDiffuse.jpg</SourceFile>
+  <SourceFile>C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/FighterDiffuse.jpg</SourceFile>
   <SourceTime>2025-11-01T13:57:17.5220774-04:00</SourceTime>
-  <DestFile>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/bin/FighterDiffuse.xnb</DestFile>
-  <DestTime>2025-11-27T12:20:34.6173376-05:00</DestTime>
+  <DestFile>C:/Sheridan/S08/GameTools/Projects/Lab08/Editor/Content/bin/FighterDiffuse.xnb</DestFile>
+  <DestTime>2025-11-27T16:24:27.5310371-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-11-01T13:10:45.4766489-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
