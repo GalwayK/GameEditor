@@ -1,11 +1,11 @@
-﻿using Lab07.Engine;
-using Lab07.Engine.Interfaces;
+﻿using Lab08.Engine;
+using Lab08.Engine.Interfaces;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System.IO;
 using System.Collections.Generic;
 
-namespace Lab07.Editor
+namespace Lab08.Editor
 {
     internal class Project : ISerializable
     {

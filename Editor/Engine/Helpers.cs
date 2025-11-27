@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Lab07.Engine
+namespace Lab08.Engine
 {
     internal class HelpSerialize
     {

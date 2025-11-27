@@ -1,4 +1,4 @@
-﻿using Lab07.Editor;
+﻿using Lab08.Editor;
 using Microsoft.Xna.Framework.Audio;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07.Engine
+namespace Lab08.Engine
 {
     internal class SFXInstance
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07.GUI
+namespace Lab08.GUI
 {
     internal class ListItemPrefab
     {

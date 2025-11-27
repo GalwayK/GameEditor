@@ -4165,11 +4165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Lab07.csproj",
-      "projectName": "Lab07",
-      "projectPath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Lab07.csproj",
+      "projectUniqueName": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Lab08.csproj",
+      "projectName": "Lab08",
+      "projectPath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Lab08.csproj",
       "packagesPath": "C:\\Users\\klg1\\.nuget\\packages\\",
-      "outputPath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\obj\\",
+      "outputPath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,5 +1,5 @@
-﻿using Lab07;
-using Lab07.Editor;
+﻿using Lab08;
+using Lab08.Editor;
 using System.Threading;
 
 Thread t = Thread.CurrentThread;

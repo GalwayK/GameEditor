@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uB/UaAWtifs=",
+  "dgSpecHash": "oT3DkR3UHIo=",
   "success": true,
-  "projectFilePath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Lab07.csproj",
+  "projectFilePath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Lab08.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klg1\\.nuget\\packages\\microsoft.netcore.app\\2.1.30\\microsoft.netcore.app.2.1.30.nupkg.sha512",
     "C:\\Users\\klg1\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.30\\microsoft.netcore.dotnetapphost.2.1.30.nupkg.sha512",

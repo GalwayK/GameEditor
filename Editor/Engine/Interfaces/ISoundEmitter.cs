@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07.Engine.Interfaces
+namespace Lab08.Engine.Interfaces
 {
     enum SoundEffectTypes
     {

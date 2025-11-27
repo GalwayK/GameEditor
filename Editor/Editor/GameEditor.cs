@@ -1,11 +1,11 @@
-﻿using Lab07.Engine;
-using Lab07.GUI;
+﻿using Lab08.Engine;
+using Lab08.GUI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Windows.Forms;
 
-namespace Lab07.Editor
+namespace Lab08.Editor
 {
     public class GameEditor : Game
     {

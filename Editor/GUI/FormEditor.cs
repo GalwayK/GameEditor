@@ -2,17 +2,17 @@
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using Lab07.Editor;
-using Lab07.Engine;
-using Lab07.Engine.Interfaces;
+using Lab08.Editor;
+using Lab08.Engine;
+using Lab08.Engine.Interfaces;
 using System.Diagnostics;
 using Microsoft.Xna.Framework;
 using System.Configuration;
 using Microsoft.Xna.Framework.Audio;
-using Lab07.GUI;
+using Lab08.GUI;
 using System.Collections.Generic;
 
-namespace Lab07;
+namespace Lab08;
 
 public partial class FormEditor : Form
 {

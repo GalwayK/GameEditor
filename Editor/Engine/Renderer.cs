@@ -1,9 +1,9 @@
-﻿using Lab07.Engine.Interfaces;
-using Lab07.Engine.Lights;
+﻿using Lab08.Engine.Interfaces;
+using Lab08.Engine.Lights;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Lab07.Engine
+namespace Lab08.Engine
 {
     internal class Renderer
     {

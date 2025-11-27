@@ -5,7 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07.Engine.Lights
+namespace Lab08.Engine.Lights
 {
     internal class Light
     {

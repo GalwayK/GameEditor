@@ -1,6 +1,6 @@
-﻿using Lab07.Editor;
-using Lab07.Engine.Interfaces;
-using Lab07.Engine.Lights;
+﻿using Lab08.Editor;
+using Lab08.Engine.Interfaces;
+using Lab08.Engine.Lights;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
 
-namespace Lab07.Engine
+namespace Lab08.Engine
 {
     internal class Level : ISerializable
     {

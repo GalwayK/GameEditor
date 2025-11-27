@@ -1,11 +1,11 @@
-﻿using Lab07.Editor;
-using Lab07.Engine.Interfaces;
+﻿using Lab08.Editor;
+using Lab08.Engine.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System.IO;
 
-namespace Lab07.Engine
+namespace Lab08.Engine
 {
     internal class Camera : ISerializable
     {

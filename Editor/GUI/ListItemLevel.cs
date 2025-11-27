@@ -1,11 +1,11 @@
-﻿using Lab07.Engine;
+﻿using Lab08.Engine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07.GUI
+namespace Lab08.GUI
 {
     internal class ListItemLevel
     {

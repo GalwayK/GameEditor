@@ -1,6 +1,6 @@
-﻿using Lab07.Editor;
-using Lab07.Engine;
-using Lab07.Engine.Interfaces;
+﻿using Lab08.Editor;
+using Lab08.Engine;
+using Lab08.Engine.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -9,7 +9,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace Lab07.Engine
+namespace Lab08.Engine
 {
     class Models : ISerializable, ISelectable, IRenderable, ISoundEmitter
     {

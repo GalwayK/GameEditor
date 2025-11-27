@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace Lab07.Engine.Interfaces
+namespace Lab08.Engine.Interfaces
 {
     internal interface IRenderable : IMaterial
     {

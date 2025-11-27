@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using System.Windows.Forms;
-using Lab07.Engine;
+using Lab08.Engine;
 
-namespace Lab07.Engine
+namespace Lab08.Engine
 {
     internal class InputController
     {

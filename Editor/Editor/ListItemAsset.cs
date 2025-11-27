@@ -1,11 +1,11 @@
-﻿using Lab07.Editor;
+﻿using Lab08.Editor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07.Editor
+namespace Lab08.Editor
 {
     internal class ListItemAsset
     {
