@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace Lab06.Engine
+namespace Lab07.Engine
 {
     internal class Material
     {

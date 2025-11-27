@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/FighterDiffuse.jpg</SourceFile>
+  <SourceTime>2025-11-01T13:57:17.5220774-04:00</SourceTime>
+  <DestFile>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/bin/FighterDiffuse_0.xnb</DestFile>
+  <DestTime>2025-11-27T12:20:34.1881238-05:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2025-11-01T13:10:45.4766489-04:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2025-11-01T13:10:45.4766489-04:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>0,0,0,0</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ResizeToPowerOfTwo</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

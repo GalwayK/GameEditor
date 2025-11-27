@@ -1,4 +1,4 @@
-﻿namespace Lab06
+﻿namespace Lab07
 {
     partial class FormEditor
     {

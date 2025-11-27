@@ -1,9 +1,9 @@
-﻿using Lab06.Editor;
-using Lab06.Engine.Interfaces;
+﻿using Lab07.Editor;
+using Lab07.Engine.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Lab06.Engine
+namespace Lab07.Engine
 {
     internal class Terrain : ISelectable, IRenderable
     {

@@ -1,6 +1,6 @@
-﻿using Lab06.Editor;
+﻿using Lab07.Editor;
 
-namespace Lab06.Engine.Interfaces
+namespace Lab07.Engine.Interfaces
 {
     internal interface IMaterial
     {

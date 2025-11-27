@@ -2,9 +2,9 @@
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using Lab06.Editor;
-using Lab06.Engine;
-using Lab06.Engine.Interfaces;
+using Lab07.Editor;
+using Lab07.Engine;
+using Lab07.Engine.Interfaces;
 using System.Diagnostics;
 using Microsoft.Xna.Framework;
 using System.Configuration;
@@ -13,7 +13,7 @@ using Microsoft.Xna.Framework.Audio;
 using Lab07.GUI;
 using Lab07.Engine;
 
-namespace Lab06;
+namespace Lab07;
 
 public partial class FormEditor : Form
 {

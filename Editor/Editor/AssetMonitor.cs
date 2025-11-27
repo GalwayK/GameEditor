@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.IO;
 
 
-namespace Lab06.Editor
+namespace Lab07.Editor
 {
     public delegate void AssetsUpdated();
 

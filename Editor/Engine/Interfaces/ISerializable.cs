@@ -1,8 +1,8 @@
-﻿using Lab06.Editor;
+﻿using Lab07.Editor;
 using Microsoft.Xna.Framework.Content;
 using System.IO;
 
-namespace Lab06.Engine.Interfaces
+namespace Lab07.Engine.Interfaces
 {
     internal interface ISerializable
     {

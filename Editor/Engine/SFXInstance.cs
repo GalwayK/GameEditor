@@ -1,4 +1,4 @@
-﻿using Lab06.Editor;
+﻿using Lab07.Editor;
 using Microsoft.Xna.Framework.Audio;
 using System;
 using System.Collections.Generic;

@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System.Diagnostics;
 
-namespace Lab06.Engine
+namespace Lab07.Engine
 {
     internal class FontController
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab06.Engine.Interfaces
+namespace Lab07.Engine.Interfaces
 {
     internal interface ISelectable
     {

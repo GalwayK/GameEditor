@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab07 - redo\\editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab07 - redo\\editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab07 - redo\\editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab07 - redo\\editor\\gui\\listitemprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,29 +102,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Level.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Level.cs",
-              "RelativeDocumentMoniker": "Editor\\Engine\\Level.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Level.cs",
-              "RelativeToolTip": "Editor\\Engine\\Level.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwv1cAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T14:27:26.367Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormEditor.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\GUI\\FormEditor.cs",
               "RelativeDocumentMoniker": "Editor\\GUI\\FormEditor.cs",
               "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\GUI\\FormEditor.cs",
               "RelativeToolTip": "Editor\\GUI\\FormEditor.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAqwKsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T14:20:10.178Z",
               "EditorCaption": ""
@@ -139,7 +131,8 @@
               "RelativeToolTip": "Editor\\GUI\\ListItemLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T16:27:23.29Z"
+              "WhenOpened": "2025-11-27T16:27:23.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -151,19 +144,19 @@
               "RelativeToolTip": "Editor\\Engine\\Light.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:44:24.35Z"
+              "WhenOpened": "2025-11-11T20:44:24.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormEditor.cs [Design]",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\GUI\\FormEditor.cs",
               "RelativeDocumentMoniker": "Editor\\GUI\\FormEditor.cs",
               "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\GUI\\FormEditor.cs [Design]",
               "RelativeToolTip": "Editor\\GUI\\FormEditor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T16:21:29.637Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-27T16:21:29.637Z"
             },
             {
               "$type": "Document",
@@ -179,20 +172,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AssetMonitor.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Editor\\AssetMonitor.cs",
               "RelativeDocumentMoniker": "Editor\\Editor\\AssetMonitor.cs",
               "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Editor\\AssetMonitor.cs",
               "RelativeToolTip": "Editor\\Editor\\AssetMonitor.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAApwCkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAApwDwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T13:55:54.893Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Level.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Level.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Level.cs",
+              "RelativeToolTip": "Editor\\Engine\\Level.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwv1cAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:27:26.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -204,7 +206,8 @@
               "RelativeToolTip": "Editor\\Engine\\Models.cs",
               "ViewState": "AgIAAKYAAAAAAAAAAADwv8UAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:44:00.972Z"
+              "WhenOpened": "2025-11-10T15:44:00.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -228,7 +231,8 @@
               "RelativeToolTip": "Editor\\Engine\\SFXInstance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:24:09.103Z"
+              "WhenOpened": "2025-11-27T17:24:09.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -240,7 +244,8 @@
               "RelativeToolTip": "Editor\\Editor\\GameEditor.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAowCUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:25:40.669Z"
+              "WhenOpened": "2025-11-10T15:25:40.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -265,7 +270,8 @@
               "RelativeToolTip": "Editor\\Editor\\Project.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAiwFMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:25:46.886Z"
+              "WhenOpened": "2025-11-10T15:25:46.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -277,7 +283,8 @@
               "RelativeToolTip": "Editor\\Engine\\Material.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:23:12.198Z"
+              "WhenOpened": "2025-11-11T19:23:12.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -289,7 +296,8 @@
               "RelativeToolTip": "Editor\\Engine\\Helpers.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAABNwAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:06:59.482Z"
+              "WhenOpened": "2025-11-11T21:06:59.482Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -301,7 +309,8 @@
               "RelativeToolTip": "Editor\\Engine\\Terrain.cs",
               "ViewState": "AgIAALgAAAAAAAAAAAAcwM0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T14:29:14.73Z"
+              "WhenOpened": "2025-11-10T14:29:14.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -313,7 +322,8 @@
               "RelativeToolTip": "Editor\\Engine\\Interfaces\\IMaterial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:24:09.975Z"
+              "WhenOpened": "2025-11-11T19:24:09.975Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -325,7 +335,8 @@
               "RelativeToolTip": "Editor\\Engine\\Interfaces\\IRenderable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:45:36.376Z"
+              "WhenOpened": "2025-11-11T20:45:36.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -337,7 +348,8 @@
               "RelativeToolTip": "Editor\\Engine\\Renderer.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:47:56.493Z"
+              "WhenOpened": "2025-11-11T20:47:56.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -349,7 +361,8 @@
               "RelativeToolTip": "Editor\\Engine\\Interfaces\\ISerializable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:43:17.896Z"
+              "WhenOpened": "2025-11-10T15:43:17.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -361,7 +374,8 @@
               "RelativeToolTip": "Editor\\Editor\\ListItemAsset.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:21:43.153Z"
+              "WhenOpened": "2025-11-10T15:21:43.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -373,7 +387,8 @@
               "RelativeToolTip": "Editor\\Engine\\Camera.cs",
               "ViewState": "AgIAADkAAAAAAAAAAIBGwEkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:25:48.125Z"
+              "WhenOpened": "2025-11-10T15:25:48.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -385,7 +400,8 @@
               "RelativeToolTip": "Editor\\Engine\\FontController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:25:52.77Z"
+              "WhenOpened": "2025-11-10T15:25:52.77Z",
+              "EditorCaption": ""
             }
           ]
         }
