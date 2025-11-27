@@ -105,17 +105,8 @@
           "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Models.cs",
-              "RelativeDocumentMoniker": "Editor\\Engine\\Models.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Models.cs",
-              "RelativeToolTip": "Editor\\Engine\\Models.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAADwv8UAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:44:00.972Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -202,14 +193,23 @@
               "RelativeDocumentMoniker": "Editor\\Editor\\AssetMonitor.cs",
               "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Editor\\AssetMonitor.cs",
               "RelativeToolTip": "Editor\\Editor\\AssetMonitor.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAApwC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwCkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T13:55:54.893Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Models.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Models.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab07 - Redo\\Editor\\Engine\\Models.cs",
+              "RelativeToolTip": "Editor\\Engine\\Models.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAADwv8UAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:44:00.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
