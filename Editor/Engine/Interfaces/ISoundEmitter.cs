@@ -15,6 +15,6 @@ namespace Lab07.Engine.Interfaces
 
     internal interface ISoundEmitter
     {
-        public SoundEffectInstance[] SoundEffects { get; }
+        public SFXInstance[] SoundEffects { get; }
     }
 }

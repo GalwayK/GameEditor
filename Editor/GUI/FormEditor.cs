@@ -8,9 +8,10 @@ using Lab06.Engine.Interfaces;
 using System.Diagnostics;
 using Microsoft.Xna.Framework;
 using System.Configuration;
-using Lab07.Engine;
 using Lab07.Engine.Interfaces;
 using Microsoft.Xna.Framework.Audio;
+using Lab07.GUI;
+using Lab07.Engine;
 
 namespace Lab06;
 
@@ -47,8 +48,8 @@ public partial class FormEditor : Form
         int index = listBoxAssets.IndexFromPoint(e.X, e.Y);
         if (index < 0) return;
         var lia = listBoxAssets.Items[index] as ListItemAsset;
-        if ((lia.Type == AssetTypes.MODEL) || 
-            (lia.Type == AssetTypes.TEXTURE) || 
+        if ((lia.Type == AssetTypes.MODEL) ||
+            (lia.Type == AssetTypes.TEXTURE) ||
             (lia.Type == AssetTypes.SFX) ||
             (lia.Type == AssetTypes.EFFECT))
         {
@@ -128,13 +129,13 @@ public partial class FormEditor : Form
                 ISoundEmitter emitter = (ISoundEmitter)m_dropped;
                 ContextMenuStrip menuStrip = new ContextMenuStrip();
                 var items = Enum.GetNames(typeof(SoundEffectTypes));
-                int index = 0; 
+                int index = 0;
                 foreach (var i in items)
                 {
                     ToolStripMenuItem menuItem = new(i);
                     menuItem.Click += MenuItem_Click;
                     menuItem.Name = index.ToString();
-                    menuItem.Tag = lia; 
+                    menuItem.Tag = lia;
                     menuStrip.Items.Add(menuItem);
                     index++;
                 }
@@ -153,7 +154,7 @@ public partial class FormEditor : Form
         SoundEffectInstance efi = ef.CreateInstance();
         efi.Volume = 1;
         efi.IsLooped = false;
-        emitter.SoundEffects[index] = efi;
+        emitter.SoundEffects[index] = SFXInstance.Create(m_game, lia.Name);
     }
 
     public void GameForm_MouseMove(object sender, MouseEventArgs e)
@@ -304,9 +305,39 @@ public partial class FormEditor : Form
         if (listBoxLevel.Items.Count == 0) return;
 
         Game.Project.CurrentLevel.ClearSelectedModels();
-        int index = listBoxLevel.SelectedIndex; 
+        int index = listBoxLevel.SelectedIndex;
         if (index == -1) return;
         var lia = listBoxLevel.Items[index] as ListItemLevel;
         lia.Model.Selected = true;
     }
+
+    private void createPrefabToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+        var models = Game.Project.CurrentLevel.GetSelectedModels();
+        if (models.Count == 0)
+        {
+            MessageBox.Show("Please select a game object in the level to convert to a prefab!",
+                "No Game Object Selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            return;
+        }
+
+        Models m = models[0] as Models;
+        string fileName = Path.Combine(Game.Project.Folder, m.Name) + ".prefab";
+        if (File.Exists(fileName))
+        {
+            MessageBox.Show("Prefab already exists, try renaming the game object or deleting the existing prefab!",
+                "Prefab already exists", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            return;
+        }
+
+        using var stream = File.Open(fileName, FileMode.Create);
+        using var writer = new BinaryWriter(stream, Encoding.UTF8, false);
+        m.Serialize(writer);
+
+        ListItemPrefab item = new() { Name = m.Name + ".prefab" };
+        listBoxPrefabs.Items.Add(item);
+    }
 }
+

@@ -1,5 +1,5 @@
 ﻿using Lab06.Engine;
-using Lab07.Engine;
+using Lab07.GUI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;

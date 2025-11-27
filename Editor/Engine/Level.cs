@@ -92,9 +92,9 @@ namespace Lab06.Engine
                 if ((Models.SelectedDirty) && m.Selected)
                 {
                     var sfi = m.SoundEffects[(int)SoundEffectTypes.OnSelect];
-                    if (sfi?.State == SoundState.Stopped)
+                    if (sfi?.Instance.State == SoundState.Stopped)
                     {
-                        sfi.Play();
+                        sfi.Instance.Play();
                     }
                 }
             }

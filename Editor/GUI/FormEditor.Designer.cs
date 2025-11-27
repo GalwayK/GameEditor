@@ -48,6 +48,7 @@
             listBoxAssets = new System.Windows.Forms.ListBox();
             statusStrip1 = new System.Windows.Forms.StatusStrip();
             toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            createPrefabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -126,7 +127,7 @@
             // 
             // assetsToolStripMenuItem
             // 
-            assetsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { importToolStripMenuItem });
+            assetsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { importToolStripMenuItem, createPrefabToolStripMenuItem });
             assetsToolStripMenuItem.Name = "assetsToolStripMenuItem";
             assetsToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             assetsToolStripMenuItem.Text = "Assets";
@@ -134,7 +135,7 @@
             // importToolStripMenuItem
             // 
             importToolStripMenuItem.Name = "importToolStripMenuItem";
-            importToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            importToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             importToolStripMenuItem.Text = "Import";
             importToolStripMenuItem.Click += importToolStripMenuItem_Click;
             // 
@@ -264,6 +265,13 @@
             toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
             toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
+            // createPrefabToolStripMenuItem
+            // 
+            createPrefabToolStripMenuItem.Name = "createPrefabToolStripMenuItem";
+            createPrefabToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            createPrefabToolStripMenuItem.Text = "Create prefab";
+            createPrefabToolStripMenuItem.Click += createPrefabToolStripMenuItem_Click;
+            // 
             // FormEditor
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -321,5 +329,6 @@
         private System.Windows.Forms.SplitContainer splitContainer4;
         public System.Windows.Forms.ListBox listBoxLevel;
         private System.Windows.Forms.ListBox listBoxPrefabs;
+        private System.Windows.Forms.ToolStripMenuItem createPrefabToolStripMenuItem;
     }
 }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07.Engine
+namespace Lab07.GUI
 {
     internal class ListItemLevel
     {
