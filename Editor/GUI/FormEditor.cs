@@ -8,10 +8,9 @@ using Lab07.Engine.Interfaces;
 using System.Diagnostics;
 using Microsoft.Xna.Framework;
 using System.Configuration;
-using Lab07.Engine.Interfaces;
 using Microsoft.Xna.Framework.Audio;
 using Lab07.GUI;
-using Lab07.Engine;
+using System.Collections.Generic;
 
 namespace Lab07;
 
@@ -41,6 +40,28 @@ public partial class FormEditor : Form
         toolStripStatusLabel1.Text = Directory.GetCurrentDirectory();
         listBoxAssets.MouseDown += ListBoxAssets_MouseDown;
         listBoxPrefabs.MouseDown += ListBoxPrefabs_MouseDown;
+    }
+
+    private void UpdateModelsList()
+    {
+        listBoxLevel.Items.Clear();
+        List<Models> models = Game.Project.CurrentLevel?.GetModelsList();
+        foreach (Models model in models)
+        {
+            listBoxLevel.Items.Add(new ListItemLevel() { Model = model });
+        }
+    }
+
+    private void UpdatePrefabsList()
+    {
+        listBoxPrefabs.Items.Clear();
+        string[] prefabs = Directory.GetFiles(Game.Project.Folder, "*.prefab");
+        foreach (string prefab in prefabs)
+        {
+            string fileName = Path.GetFileName(prefab);
+            ListItemPrefab item = new() { Name  = fileName };
+            listBoxPrefabs.Items.Add(item);
+        }
     }
 
     private void ListBoxAssets_MouseDown(object sender, MouseEventArgs e)
@@ -233,6 +254,10 @@ public partial class FormEditor : Form
             Game.Project = new(Game, sfd.FileName);
             Game.Project.OnAssetsUpdated += Project_OnAssetsUpdated;
             Game.Project.AssetMonitor.UpdateAssetDB();
+
+            UpdatePrefabsList();
+            UpdateModelsList();
+
             Text = "Kyle's Cool Editor - " + Game.Project.Name;
             Game.AdjustAspectRatio();
         }
@@ -292,6 +317,13 @@ public partial class FormEditor : Form
             using var reader = new BinaryReader(stream, Encoding.UTF8, false);
             Game.Project = new();
             Game.Project.Deserialize(reader, Game);
+            Game.Project.OnAssetsUpdated += Project_OnAssetsUpdated;
+            Game.Project.AssetMonitor.UpdateAssetDB();
+
+            UpdatePrefabsList();
+            UpdateModelsList();
+
+
             Text = "Kyle's Cool Editor - " + Game.Project.Name;
             Game.AdjustAspectRatio();
         }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Sheridan/S08/GameTools/Projects/Lab06/Editor/Content/DefaultShader.fx</SourceFile>
+  <SourceFile>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/DefaultShader.fx</SourceFile>
   <SourceTime>2025-11-10T10:35:05.8208836-05:00</SourceTime>
-  <DestFile>C:/Sheridan/S08/GameTools/Projects/Lab06/Editor/Content/bin/DefaultShader.xnb</DestFile>
-  <DestTime>2025-11-10T10:36:55.7934474-05:00</DestTime>
+  <DestFile>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/bin/DefaultShader.xnb</DestFile>
+  <DestTime>2025-11-27T13:35:29.4608628-05:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

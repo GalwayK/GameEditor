@@ -4,42 +4,12 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Arial16.spritefont</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Arial18.spritefont</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Arial20.spritefont</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/BrickWallTexture512x51201.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/BrickWallTexture512x51202.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/DefaultGrass.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/DefaultHeightMap.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/DefaultShader.fx</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/DefaultTexture.jpg</File>
+    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/BulletImpact21.wav</File>
     <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Fighter.fbx</File>
     <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/FighterDiffuse.jpg</File>
     <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/FighterNormal.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Grass.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/HeightMap.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Metal.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/MyShader.fx</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Swift.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/Teapot.fbx</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Editor/Content/TerrainEffect.fx</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

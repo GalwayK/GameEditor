@@ -2,13 +2,12 @@
 using Lab07.Engine;
 using Lab07.Engine.Interfaces;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using System.IO;
 using System;
-using Lab07.Engine.Interfaces;
-using Lab07.Engine;
+using System.Diagnostics;
+using System.IO;
 
 namespace Lab07.Engine
 {
@@ -51,7 +50,15 @@ namespace Lab07.Engine
 
         public void Create(GameEditor _game, string _model, string _texture, string _effect, Vector3 _position, float _scale)
         {
+            //string fileName = Path.Combine(_game.Project.ContentFolder, _game.Project.AssetFolder, _model);
+            //string fileName = "content/bin/" + _model;
+            //Debug.WriteLine("Project Folder: " + _game.Project.Folder);
+            //Debug.WriteLine("Content Folder: " + _game.Project.ContentFolder);
+            //Debug.WriteLine("Asset Folder: " + _game.Project.AssetFolder);
+            //Debug.WriteLine("Filename: " + fileName);
             Mesh = _game.Content.Load<Model>(_model);
+
+            //Mesh = _game.Content.Load<Model>(_model);
             Mesh.Tag = _model;
             Name = _model;
             Material = new Material();
@@ -70,6 +77,9 @@ namespace Lab07.Engine
             }
             else
             {
+                //string fileName = Path.Combine(_game.Project.Folder, _game.Project.ContentFolder, _game.Project.AssetFolder, _texture);
+                //Material.Diffuse = _game.Content.Load<Texture>(fileName);
+
                 Material.Diffuse = _game.Content.Load<Texture>(_texture);
             }
             Material.Diffuse.Tag = _texture;
@@ -83,6 +93,9 @@ namespace Lab07.Engine
             }
             else
             {
+                //string fileName = Path.Combine(_game.Project.Folder, _game.Project.ContentFolder, _game.Project.AssetFolder, _effect);
+                //Material.Effect = _game.Content.Load<Effect>(fileName);
+
                 Material.Effect = _game.Content.Load<Effect>(_effect);
             }
             Material.Effect.Tag = _effect;

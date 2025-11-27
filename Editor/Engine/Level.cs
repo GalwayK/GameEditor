@@ -1,7 +1,6 @@
 ﻿using Lab07.Editor;
 using Lab07.Engine.Interfaces;
 using Lab07.Engine.Lights;
-using Lab07.Engine.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
@@ -41,6 +40,11 @@ namespace Lab07.Engine
         public void AddModel(Models _model)
         {
             m_models.Add(_model);
+        }
+
+        public List<Models> GetModelsList()
+        {
+            return m_models;
         }
 
         public void ClearSelectedModels()
