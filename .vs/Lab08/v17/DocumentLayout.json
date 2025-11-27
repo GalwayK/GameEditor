@@ -3,100 +3,120 @@
   "WorkspaceRootPath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\gameeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\editor\\gameeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\scripts\\beforeupdate.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\scripts\\beforeupdate.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\scripts\\beforerender.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\scripts\\beforerender.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\scripts\\afterupdate.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\scripts\\afterupdate.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\scripts\\afterrender.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\scripts\\afterrender.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\editor\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\scripting\\scriptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\scripting\\scriptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\sfxinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\sfxinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\editor\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\listitemprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\gui\\listitemprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\isoundemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\interfaces\\isoundemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\listitemlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\gui\\listitemlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\isoundemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\interfaces\\isoundemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\sfxinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\sfxinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\gameeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\editor\\gameeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\listitemlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\gui\\listitemlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\formeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\gui\\formeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\listitemprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\gui\\listitemprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\gui\\formeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\gui\\formeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\imaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\interfaces\\imaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\irenderable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\interfaces\\irenderable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\imaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\interfaces\\imaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\irenderable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\interfaces\\irenderable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\iserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\interfaces\\iserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\listitemasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\editor\\listitemasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\interfaces\\iserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\interfaces\\iserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\editor\\listitemasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\editor\\listitemasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\fontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab07.csproj|solutionrelative:editor\\engine\\fontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab08\\editor\\engine\\fontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab08.csproj|solutionrelative:editor\\engine\\fontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,41 +126,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Program.cs",
-              "RelativeDocumentMoniker": "Editor\\Program.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Program.cs",
-              "RelativeToolTip": "Editor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T20:45:52.133Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ISoundEmitter.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
-              "RelativeDocumentMoniker": "Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
-              "RelativeToolTip": "Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BeforeUpdate.lua",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\BeforeUpdate.lua",
+              "RelativeDocumentMoniker": "Editor\\Scripts\\BeforeUpdate.lua",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\BeforeUpdate.lua",
+              "RelativeToolTip": "Editor\\Scripts\\BeforeUpdate.lua",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-27T21:20:12.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeforeRender.lua",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\BeforeRender.lua",
+              "RelativeDocumentMoniker": "Editor\\Scripts\\BeforeRender.lua",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\BeforeRender.lua",
+              "RelativeToolTip": "Editor\\Scripts\\BeforeRender.lua",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-27T21:20:05.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AfterUpdate.lua",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\AfterUpdate.lua",
+              "RelativeDocumentMoniker": "Editor\\Scripts\\AfterUpdate.lua",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\AfterUpdate.lua",
+              "RelativeToolTip": "Editor\\Scripts\\AfterUpdate.lua",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-27T21:19:58.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AfterRender.lua",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\AfterRender.lua",
+              "RelativeDocumentMoniker": "Editor\\Scripts\\AfterRender.lua",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Scripts\\AfterRender.lua",
+              "RelativeToolTip": "Editor\\Scripts\\AfterRender.lua",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-27T21:19:13.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameEditor.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\GameEditor.cs",
+              "RelativeDocumentMoniker": "Editor\\Editor\\GameEditor.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\GameEditor.cs",
+              "RelativeToolTip": "Editor\\Editor\\GameEditor.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwHUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:00:06.072Z",
+              "WhenOpened": "2025-11-10T15:25:40.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Level.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Level.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Level.cs",
+              "RelativeToolTip": "Editor\\Engine\\Level.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:27:26.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScriptController.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Scripting\\ScriptController.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Scripting\\ScriptController.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Scripting\\ScriptController.cs",
+              "RelativeToolTip": "Editor\\Engine\\Scripting\\ScriptController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T20:58:30.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Program.cs",
+              "RelativeDocumentMoniker": "Editor\\Program.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Program.cs",
+              "RelativeToolTip": "Editor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T20:45:52.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Camera.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Camera.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Camera.cs",
+              "RelativeToolTip": "Editor\\Engine\\Camera.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:25:48.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Light.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Light.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Light.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Light.cs",
+              "RelativeToolTip": "Editor\\Engine\\Light.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:44:24.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\Project.cs",
+              "RelativeDocumentMoniker": "Editor\\Editor\\Project.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\Project.cs",
+              "RelativeToolTip": "Editor\\Editor\\Project.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:25:46.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AssetMonitor.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\AssetMonitor.cs",
               "RelativeDocumentMoniker": "Editor\\Editor\\AssetMonitor.cs",
@@ -153,33 +290,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\Project.cs",
-              "RelativeDocumentMoniker": "Editor\\Editor\\Project.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\Project.cs",
-              "RelativeToolTip": "Editor\\Editor\\Project.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA3wCEAAABLAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ISoundEmitter.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
+              "RelativeToolTip": "Editor\\Engine\\Interfaces\\ISoundEmitter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:25:46.886Z",
+              "WhenOpened": "2025-11-27T17:00:06.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Level.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Level.cs",
-              "RelativeDocumentMoniker": "Editor\\Engine\\Level.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Level.cs",
-              "RelativeToolTip": "Editor\\Engine\\Level.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T14:27:26.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "FormEditor.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\GUI\\FormEditor.cs",
               "RelativeDocumentMoniker": "Editor\\GUI\\FormEditor.cs",
@@ -192,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Models.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Models.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Models.cs",
@@ -205,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "SFXInstance.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\SFXInstance.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\SFXInstance.cs",
@@ -218,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "FormEditor.cs [Design]",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\GUI\\FormEditor.cs",
               "RelativeDocumentMoniker": "Editor\\GUI\\FormEditor.cs",
@@ -229,20 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Light.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Light.cs",
-              "RelativeDocumentMoniker": "Editor\\Engine\\Light.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Light.cs",
-              "RelativeToolTip": "Editor\\Engine\\Light.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:44:24.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ListItemLevel.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\GUI\\ListItemLevel.cs",
               "RelativeDocumentMoniker": "Editor\\GUI\\ListItemLevel.cs",
@@ -255,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "ListItemPrefab.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\GUI\\ListItemPrefab.cs",
               "RelativeDocumentMoniker": "Editor\\GUI\\ListItemPrefab.cs",
@@ -268,20 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameEditor.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\GameEditor.cs",
-              "RelativeDocumentMoniker": "Editor\\Editor\\GameEditor.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\GameEditor.cs",
-              "RelativeToolTip": "Editor\\Editor\\GameEditor.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowCUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:25:40.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "FormEditor.Designer.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\GUI\\FormEditor.Designer.cs",
               "RelativeDocumentMoniker": "Editor\\GUI\\FormEditor.Designer.cs",
@@ -294,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Material.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Material.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Material.cs",
@@ -307,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Helpers.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Helpers.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Helpers.cs",
@@ -320,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Terrain.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Terrain.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Terrain.cs",
@@ -333,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "IMaterial.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Interfaces\\IMaterial.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Interfaces\\IMaterial.cs",
@@ -346,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "IRenderable.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Interfaces\\IRenderable.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Interfaces\\IRenderable.cs",
@@ -359,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Renderer.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Renderer.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Renderer.cs",
@@ -372,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "ISerializable.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Interfaces\\ISerializable.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\Interfaces\\ISerializable.cs",
@@ -385,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "ListItemAsset.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Editor\\ListItemAsset.cs",
               "RelativeDocumentMoniker": "Editor\\Editor\\ListItemAsset.cs",
@@ -398,20 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Camera.cs",
-              "RelativeDocumentMoniker": "Editor\\Engine\\Camera.cs",
-              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\Camera.cs",
-              "RelativeToolTip": "Editor\\Engine\\Camera.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAOB7wEkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T15:25:48.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "FontController.cs",
               "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab08\\Editor\\Engine\\FontController.cs",
               "RelativeDocumentMoniker": "Editor\\Engine\\FontController.cs",

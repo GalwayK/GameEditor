@@ -57,6 +57,10 @@
             "MonoGame.Framework.WindowsDX": {
               "target": "Package",
               "version": "[3.8.*, )"
+            },
+            "MoonSharp": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

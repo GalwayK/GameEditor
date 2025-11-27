@@ -12,7 +12,10 @@ namespace Lab08.Engine
 {
     internal class Level : ISerializable
     {
+        //Accessors 
         public Camera GetCamera() { return m_camera; }
+        public Terrain GetTerrain() { return m_terrain; }
+        public Light GetLight() { return m_light; }
 
         private List<Models> m_models = new();
         private Camera m_camera = new(new Vector3(0, 400, 500), 16 / 9);
@@ -34,7 +37,10 @@ namespace Lab08.Engine
 
         public void LoadContent(GameEditor _game)
         {
-            //m_terrain = new(_game.DefaultEffect, _game.DefaultHeightMap, _game.DefaultGrass, 200, _game.GraphicsDevice);
+            m_terrain = new(_game.DefaultEffect,
+                            _game.DefaultHeightMap,
+                            _game.DefaultGrass, 200,
+                            _game.GraphicsDevice);
         }
 
         public void AddModel(Models _model)

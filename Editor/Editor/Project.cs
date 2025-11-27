@@ -1,7 +1,6 @@
 ﻿using Lab08.Engine;
 using Lab08.Engine.Interfaces;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.Graphics;
+using Lab08.Engine.Scripting;
 using System.IO;
 using System.Collections.Generic;
 
@@ -17,6 +16,7 @@ namespace Lab08.Editor
         public string ContentFolder { get; private set; } = string.Empty;
         public string AssetFolder { get; private set; } = string.Empty;
         public string ObjectFolder { get; private set; } = string.Empty;
+        public string ScriptFolder { get; private set; } = string.Empty;
         public string Name { get; private set; } = string.Empty;
         public AssetMonitor AssetMonitor { get; private set; } = null;
 
@@ -35,6 +35,7 @@ namespace Lab08.Editor
             ContentFolder = Path.Combine(Folder, "Content");
             AssetFolder = Path.Combine(ContentFolder, "bin");
             ObjectFolder = Path.Combine(ContentFolder, "obj");
+            ScriptFolder = Path.Combine(Folder, "Scripts");
             char d = Path.DirectorySeparatorChar;
             if (!Directory.Exists(ContentFolder))
             {
@@ -43,11 +44,44 @@ namespace Lab08.Editor
                 Directory.CreateDirectory(ObjectFolder);
                 File.Copy($"ContentTemplate.mgcb", ContentFolder + $"{d}Content.mgcb");
             }
+
+            if (!Directory.Exists(ScriptFolder))
+            {
+                Directory.CreateDirectory(ScriptFolder);
+            }
+            CreateScriptFile(ScriptFolder + $"{d}BeforeRender.lua");
+            CreateScriptFile(ScriptFolder + $"{d}AfterRender.lua");
+            CreateScriptFile(ScriptFolder + $"{d}BeforeUpdate.lua");
+            CreateScriptFile(ScriptFolder + $"{d}AfterUpdate.lua");
+
+
             AssetMonitor = new(ObjectFolder);
             AssetMonitor.OnAssetsUpdated += AssetMon_OnAssetsUpdated;
 
             // Add a default level
             AddLevel(_game);
+            ConfigureScripts();
+        }
+
+        private void CreateScriptFile(string _file)
+        {
+            string funcName = Path.GetFileNameWithoutExtension(_file);
+            if (!File.Exists(_file))
+            {
+                File.Create(_file).Close();
+                File.AppendAllLines(_file, new string[] {"function " +  funcName + "Main()", "end"});
+            }
+        }
+
+        public void ConfigureScripts()
+        {
+            char d = Path.DirectorySeparatorChar;
+            var sc = ScriptController.Instance;
+            sc.LoadSharedObjects(this);
+            sc.LoadScriptFile(ScriptFolder + $"{d}BeforeRender.lua");
+            sc.LoadScriptFile(ScriptFolder + $"{d}AfterRender.lua");
+            sc.LoadScriptFile(ScriptFolder + $"{d}BeforeUpdate.lua");
+            sc.LoadScriptFile(ScriptFolder + $"{d}AfterUpdate.lua");
         }
 
         private void AssetMon_OnAssetsUpdated()
@@ -80,6 +114,7 @@ namespace Lab08.Editor
             _stream.Write(ContentFolder);
             _stream.Write(AssetFolder);
             _stream.Write(ObjectFolder);
+            _stream.Write(ScriptFolder);
 
             _stream.Write(Levels.Count);
             int clIndex = Levels.IndexOf(CurrentLevel);
@@ -99,6 +134,7 @@ namespace Lab08.Editor
             ContentFolder = _stream.ReadString();
             AssetFolder = _stream.ReadString();
             ObjectFolder = _stream.ReadString();
+            ScriptFolder = _stream.ReadString();
 
             int levelCount = _stream.ReadInt32();
             for (int count = 0; count < levelCount; count++)
@@ -112,7 +148,7 @@ namespace Lab08.Editor
 
             AssetMonitor = new(ObjectFolder);
             AssetMonitor.OnAssetsUpdated += AssetMon_OnAssetsUpdated;
-
+            ConfigureScripts();
             //Folder = _stream.ReadString();
             //Name = _stream.ReadString();
         }

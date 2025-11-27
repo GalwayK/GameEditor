@@ -1,4 +1,5 @@
 ﻿using Lab08.Engine;
+using Lab08.Engine.Scripting;
 using Lab08.GUI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -95,12 +96,12 @@ namespace Lab08.Editor
         {
             if (Project != null)
             {
-                //ScriptController.Instance.Execute("BeforeUpdateMain");
+                ScriptController.Instance.Execute("BeforeUpdateMain");
                 Content.RootDirectory = Project.ContentFolder + "\\bin";
                 Project.Update((float)(_gameTime.ElapsedGameTime.TotalMilliseconds / 1000));
                 InputController.Instance.Clear();
                 UpdateSelected();
-                //ScriptController.Instance.Execute("AfterUpdateMain");
+                ScriptController.Instance.Execute("AfterUpdateMain");
             }
             base.Update(_gameTime);
 
@@ -112,7 +113,7 @@ namespace Lab08.Editor
 
             if (Project != null)
             {
-                //ScriptController.Instance.Execute("BeforeUpdateMain");
+                ScriptController.Instance.Execute("BeforeRenderMain");
                 GraphicsDevice.RasterizerState = m_rasterState;
                 GraphicsDevice.DepthStencilState = m_depthStencilState;
                 Project.Render();
@@ -120,7 +121,7 @@ namespace Lab08.Editor
                 m_fonts.Draw(m_spriteBatch, 20, InputController.Instance.ToString(), new Vector2(20, 20), Color.White);
                 m_fonts.Draw(m_spriteBatch, 16, Project.CurrentLevel.ToString(), new Vector2(20, 80), Color.Yellow);
                 m_spriteBatch.End();
-                //ScriptController.Instance.Execute("AfterUpdateMain");
+                ScriptController.Instance.Execute("AfterRenderMain");
             }
 
             base.Draw(gameTime);
