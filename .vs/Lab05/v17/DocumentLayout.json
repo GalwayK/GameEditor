@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\interfaces\\iselectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\interfaces\\iselectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\editor\\assetmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\editor\\gameeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\editor\\gameeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\gui\\formeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\editor\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\editor\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\content\\terraineffect.fx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\content\\terraineffect.fx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|c:\\sheridan\\s08\\gametools\\projects\\lab05\\editor\\engine\\fontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953D9AC8-2833-43F4-AF8E-7A7E63F8E950}|Editor\\Lab05.csproj|solutionrelative:editor\\engine\\fontcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameEditor.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Editor\\GameEditor.cs",
+              "RelativeDocumentMoniker": "Editor\\Editor\\GameEditor.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Editor\\GameEditor.cs",
+              "RelativeToolTip": "Editor\\Editor\\GameEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:10:45.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TerrainEffect.fx",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Content\\TerrainEffect.fx",
+              "RelativeDocumentMoniker": "Editor\\Content\\TerrainEffect.fx",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Content\\TerrainEffect.fx",
+              "RelativeToolTip": "Editor\\Content\\TerrainEffect.fx",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-01T15:30:15.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Editor\\Project.cs",
+              "RelativeDocumentMoniker": "Editor\\Editor\\Project.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Editor\\Project.cs",
+              "RelativeToolTip": "Editor\\Editor\\Project.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:10:46.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISelectable.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Interfaces\\ISelectable.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Interfaces\\ISelectable.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Interfaces\\ISelectable.cs",
+              "RelativeToolTip": "Editor\\Engine\\Interfaces\\ISelectable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T16:34:10.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Helpers.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Helpers.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Helpers.cs",
+              "RelativeToolTip": "Editor\\Engine\\Helpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:46:21.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetMonitor.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Editor\\AssetMonitor.cs",
+              "RelativeDocumentMoniker": "Editor\\Editor\\AssetMonitor.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Editor\\AssetMonitor.cs",
+              "RelativeToolTip": "Editor\\Editor\\AssetMonitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T17:16:48.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Terrain.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Terrain.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Terrain.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Terrain.cs",
+              "RelativeToolTip": "Editor\\Engine\\Terrain.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAxwBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:09:54.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Models.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Models.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Models.cs",
+              "RelativeToolTip": "Editor\\Engine\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:11:24.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormEditor.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\GUI\\FormEditor.cs",
+              "RelativeDocumentMoniker": "Editor\\GUI\\FormEditor.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\GUI\\FormEditor.cs",
+              "RelativeToolTip": "Editor\\GUI\\FormEditor.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAcwJYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:11:36.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Camera.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Camera.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Camera.cs",
+              "RelativeToolTip": "Editor\\Engine\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:10:12.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\App.config",
+              "RelativeDocumentMoniker": "Editor\\App.config",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\App.config",
+              "RelativeToolTip": "Editor\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-01T17:12:02.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Level.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\Level.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\Level.cs",
+              "RelativeToolTip": "Editor\\Engine\\Level.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAADwv5YAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:04:08.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Program.cs",
+              "RelativeDocumentMoniker": "Editor\\Program.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Program.cs",
+              "RelativeToolTip": "Editor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:33:54.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InputController.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\InputController.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\InputController.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\InputController.cs",
+              "RelativeToolTip": "Editor\\Engine\\InputController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:11:07.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FontController.cs",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\FontController.cs",
+              "RelativeDocumentMoniker": "Editor\\Engine\\FontController.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\Engine\\FontController.cs",
+              "RelativeToolTip": "Editor\\Engine\\FontController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:10:25.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormEditor.cs [Design]",
+              "DocumentMoniker": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\GUI\\FormEditor.cs",
+              "RelativeDocumentMoniker": "Editor\\GUI\\FormEditor.cs",
+              "ToolTip": "C:\\Sheridan\\S08\\GameTools\\Projects\\Lab05\\Editor\\GUI\\FormEditor.cs [Design]",
+              "RelativeToolTip": "Editor\\GUI\\FormEditor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:11:32.285Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
