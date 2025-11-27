@@ -9,6 +9,8 @@ using System.Diagnostics;
 using Microsoft.Xna.Framework;
 using System.Configuration;
 using Lab07.Engine;
+using Lab07.Engine.Interfaces;
+using Microsoft.Xna.Framework.Audio;
 
 namespace Lab06;
 
@@ -29,7 +31,7 @@ public partial class FormEditor : Form
 
     private GameEditor m_game = null;
     private Process m_MGCBProcess = null;
-    private IMaterial m_dropped = null;
+    private Object m_dropped = null;
 
     public FormEditor()
     {
@@ -45,7 +47,10 @@ public partial class FormEditor : Form
         int index = listBoxAssets.IndexFromPoint(e.X, e.Y);
         if (index < 0) return;
         var lia = listBoxAssets.Items[index] as ListItemAsset;
-        if ((lia.Type == AssetTypes.MODEL) || (lia.Type == AssetTypes.TEXTURE) || (lia.Type == AssetTypes.EFFECT))
+        if ((lia.Type == AssetTypes.MODEL) || 
+            (lia.Type == AssetTypes.TEXTURE) || 
+            (lia.Type == AssetTypes.SFX) ||
+            (lia.Type == AssetTypes.EFFECT))
         {
             DoDragDrop(lia, DragDropEffects.Copy);
         }
@@ -76,18 +81,23 @@ public partial class FormEditor : Form
         if (e.Data.GetDataPresent(typeof(ListItemAsset)))
         {
             var lia = e.Data.GetData(typeof(ListItemAsset)) as ListItemAsset;
+            ISelectable obj = m_game.Project.CurrentLevel.HandlePick(false);
             if (lia.Type == AssetTypes.MODEL)
             {
                 e.Effect = DragDropEffects.Copy;
             }
             else if ((lia.Type == AssetTypes.TEXTURE) || (lia.Type == AssetTypes.EFFECT))
             {
-                ISelectable obj = m_game.Project.CurrentLevel.HandlePick(false);
                 if (obj is IMaterial) m_dropped = obj as IMaterial;
-                if (m_dropped != null)
-                {
-                    e.Effect = DragDropEffects.Copy;
-                }
+
+            }
+            else if (lia.Type == AssetTypes.SFX)
+            {
+                if (obj is ISoundEmitter) m_dropped = obj as ISoundEmitter;
+            }
+            if (m_dropped != null)
+            {
+                e.Effect = DragDropEffects.Copy;
             }
         }
     }
@@ -105,13 +115,45 @@ public partial class FormEditor : Form
             }
             else if (lia.Type == AssetTypes.TEXTURE)
             {
-                m_dropped?.SetTexture(m_game, lia.Name);
+                IMaterial material = m_dropped as IMaterial;
+                material?.SetTexture(m_game, lia.Name);
             }
             else if (lia.Type == AssetTypes.EFFECT)
             {
-                m_dropped?.SetShader(m_game, lia.Name);
+                IMaterial material = m_dropped as IMaterial;
+                material?.SetShader(m_game, lia.Name);
+            }
+            else if (lia.Type == AssetTypes.SFX)
+            {
+                ISoundEmitter emitter = (ISoundEmitter)m_dropped;
+                ContextMenuStrip menuStrip = new ContextMenuStrip();
+                var items = Enum.GetNames(typeof(SoundEffectTypes));
+                int index = 0; 
+                foreach (var i in items)
+                {
+                    ToolStripMenuItem menuItem = new(i);
+                    menuItem.Click += MenuItem_Click;
+                    menuItem.Name = index.ToString();
+                    menuItem.Tag = lia; 
+                    menuStrip.Items.Add(menuItem);
+                    index++;
+                }
+                menuStrip.Show(new System.Drawing.Point(e.X, e.Y));
             }
         }
+    }
+
+    private void MenuItem_Click(object sender, EventArgs e)
+    {
+        ISoundEmitter emitter = (ISoundEmitter)m_dropped;
+        var tmi = sender as ToolStripMenuItem;
+        int index = Int32.Parse(tmi.Name);
+        var lia = tmi.Tag as ListItemAsset;
+        SoundEffect ef = m_game.Content.Load<SoundEffect>(lia.Name);
+        SoundEffectInstance efi = ef.CreateInstance();
+        efi.Volume = 1;
+        efi.IsLooped = false;
+        emitter.SoundEffects[index] = efi;
     }
 
     public void GameForm_MouseMove(object sender, MouseEventArgs e)

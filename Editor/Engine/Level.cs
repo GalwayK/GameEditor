@@ -1,8 +1,9 @@
 ﻿using Lab06.Editor;
 using Lab06.Engine.Interfaces;
 using Lab06.Engine.Lights;
+using Lab07.Engine.Interfaces;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
 using System.IO;
@@ -84,12 +85,28 @@ namespace Lab06.Engine
             }
         }
 
+        private void HandleAudio()
+        {
+            foreach (Models m in m_models)
+            {
+                if ((Models.SelectedDirty) && m.Selected)
+                {
+                    var sfi = m.SoundEffects[(int)SoundEffectTypes.OnSelect];
+                    if (sfi?.State == SoundState.Stopped)
+                    {
+                        sfi.Play();
+                    }
+                }
+            }
+        }
+
         public void Update(float _delta)
         {
             HandleTranslate();
             HandleRotate(_delta);
             HandleScale(_delta);
             HandlePick();
+            HandleAudio();
         }
 
         public void HandleTranslate()

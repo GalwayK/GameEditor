@@ -15,7 +15,8 @@ namespace Lab06.Editor
         TEXTURE, 
         FONT, 
         AUDIO, 
-        EFFECT
+        EFFECT, 
+        SFX
     }
 
     internal class AssetMonitor
@@ -62,7 +63,7 @@ namespace Lab06.Editor
                         assetType = AssetTypes.AUDIO;
                         break;
                     case "\"SoundEffectProcessor\"":
-                        assetType = AssetTypes.AUDIO;
+                        assetType = AssetTypes.SFX;
                         break;
                     case "\"EffectProcessor\"":
                         assetType = AssetTypes.EFFECT;

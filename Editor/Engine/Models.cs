@@ -3,17 +3,21 @@ using Lab06.Engine;
 using Lab06.Engine.Interfaces;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using System.IO;
+using System;
+using Lab07.Engine.Interfaces;
 
 namespace Lab06.Engine
 {
-    class Models : ISerializable, ISelectable, IRenderable
+    class Models : ISerializable, ISelectable, IRenderable, ISoundEmitter
     {
         public Model Mesh {  get; set; }
         public Material Material { get; private set; }
         public Texture Texture { get; set; }
         public Effect Shader { get; set; }
+        public SoundEffectInstance[] SoundEffects { get; private set; }
         public Vector3 Position { get => m_position; set => m_position = value; }
         public Vector3 Rotation { get => m_rotation; set => m_rotation = value; }
         public float Scale { get; set; }
@@ -54,6 +58,7 @@ namespace Lab06.Engine
             SetShader(_game, _effect);
             m_position = _position;
             Scale = _scale;
+            SoundEffects = new SoundEffectInstance[Enum.GetNames(typeof(SoundEffectTypes)).Length];
         }
 
         public void SetTexture(GameEditor _game, string _texture)

@@ -49,3 +49,4 @@ C:\Sheridan\S08\GameTools\Projects\Lab07 - Redo\Editor\obj\Debug\net8.0-windows\
 C:\Sheridan\S08\GameTools\Projects\Lab07 - Redo\Editor\obj\Debug\net8.0-windows\Lab07.pdb
 C:\Sheridan\S08\GameTools\Projects\Lab07 - Redo\Editor\obj\Debug\net8.0-windows\Lab07.genruntimeconfig.cache
 C:\Sheridan\S08\GameTools\Projects\Lab07 - Redo\Editor\obj\Debug\net8.0-windows\ref\Lab07.dll
+C:\Sheridan\S08\GameTools\Projects\Lab07 - Redo\Editor\obj\Debug\net8.0-windows\Lab07.sourcelink.json

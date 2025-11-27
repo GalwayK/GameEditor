@@ -4,11 +4,13 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab06/Saves/Content/Fighter.fbx</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab06/Saves/Content/FighterDiffuse.jpg</File>
-    <File>C:/Sheridan/S08/GameTools/Projects/Lab06/Saves/Content/FighterNormal.jpg</File>
+    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/BulletImpact21.wav</File>
+    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/Fighter.fbx</File>
+    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/FighterDiffuse.jpg</File>
+    <File>C:/Sheridan/S08/GameTools/Projects/Lab07 - Redo/Saves/Content/FighterNormal.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
